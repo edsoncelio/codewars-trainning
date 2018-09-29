@@ -21,19 +21,9 @@ Implement a method that accepts 3 integer values a, b, c. The method should retu
 (In this case, all triangles must have surface greater than 0 to be accepted).
 
 **Solution:**
-```
-package kata
 
-func IsTriangle(a, b, c int) bool {
-  
-   for a > 0 && b> 0 || c > 0{ 
-      if a + b > c && b + c > a && a + c > b{ 
-        return true
-      }else{ return false}
-    }
-    return false
-}
-```
+[triangle.go](solutions/triangle.go)
+
 Using [triangle inequality teorem](http://www.mathwarehouse.com/geometry/triangles/triangle-inequality-theorem-rule-explained.php)
 
 ---
