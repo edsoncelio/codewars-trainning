@@ -48,6 +48,8 @@ func RemoveChar(word string) string {
 }
 ```
 
+---
+
 #### [**8kyu**][Even or Odd](https://www.codewars.com/kata/even-or-odd/train/go)
 
 Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
@@ -61,5 +63,33 @@ func EvenOrOdd(number int) string {
   }else{ return "Odd"}
 }
 ```
+
+---
+
+#### [8kyu] [Sum of positive](https://www.codewars.com/kata/sum-of-positive/train/go)
+
+You get an array of numbers, return the sum of all of the positives ones.
+
+`Example [1,-4,7,12] => 1 + 7 + 12 = 20`
+
+Note: if there is nothing to sum, the sum is default to `0`.
+
+**Solution:**
+
+```
+package kata
+
+func PositiveSum(numbers []int) int {
+   var sum int = 0
+   for _, value := range numbers{
+     if value > 0 { 
+       sum =  sum + value
+     }
+   } 
+   return sum
+}
+```
+
+---
 
 
