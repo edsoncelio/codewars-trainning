@@ -34,3 +34,16 @@ func IsTriangle(a, b, c int) bool {
 Using [triangle inequality teorem](http://www.mathwarehouse.com/geometry/triangles/triangle-inequality-theorem-rule-explained.php)
 
 ---
+
+[**8kyu**] [Remove First and Last Character](https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/go)
+
+It's pretty straightforward. Your goal is to create a function that removes the first and last characters of a string. You're given one parameter, the original string. You don't have to worry with strings with less than two characters.
+
+**Solução:**
+```
+package kata
+
+func RemoveChar(word string) string {
+  return word[1:(len(word)-1)]
+}
+``
