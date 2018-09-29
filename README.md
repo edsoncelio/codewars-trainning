@@ -1,8 +1,7 @@
 ## codewars-trainning
 Solutions to codewars problems
 
-![badge][badge]
-[badge]: https://www.codewars.com/users/edsoncelio/badges/large
+![badge](https://www.codewars.com/users/edsoncelio/badges/large)
 
 ---
 
