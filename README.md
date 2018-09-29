@@ -1,11 +1,15 @@
 ## codewars-trainning
 Solutions to codewars problems
 
+Rankings: <br> 
+
+`1 dan -> 1 kyu -> 2 kyu -> 3 kyu -> 4 kyu -> 5 kyu -> 6kyu -> 7kyu`
+
 ---
 
 ## Template:
 
-[level] [question] <br>
+[ranking] [question] <br>
 [instructions] <br>
 [solution]
 
