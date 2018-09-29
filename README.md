@@ -93,6 +93,4 @@ Notes:
 
 **Solution:**
 
----
-
 [negative.go](solutions/negative.go)
