@@ -2,11 +2,13 @@
 Solutions to codewars problems
 
 ---
+
 Template:
-[nível] [pergunta]
-[instruções]
-[link]
+[nível] [pergunta] <br>
+[instruções] <br>
+[link] <br>
 [solução]
+
 ---
 
 [**7kyu**] [Is this a triangle?](https://www.codewars.com/kata/56606694ec01347ce800001b/train/go)
@@ -29,4 +31,6 @@ func IsTriangle(a, b, c int) bool {
     return false
 }
 ```
+Using [triangle inequality teorem](http://www.mathwarehouse.com/geometry/triangles/triangle-inequality-theorem-rule-explained.php)
 
+---
