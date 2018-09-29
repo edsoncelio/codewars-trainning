@@ -1,4 +1,4 @@
-## Solutions to codewars problems
+## Solutions to [Codewars](https://www.codewars.com/) problems solved in Golang
 
 ![badge](https://www.codewars.com/users/edsoncelio/badges/large)
 
