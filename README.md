@@ -1,5 +1,4 @@
-## codewars-trainning
-Solutions to codewars problems
+## Solutions to codewars problems
 
 ![badge](https://www.codewars.com/users/edsoncelio/badges/large)
 
@@ -7,10 +6,11 @@ Solutions to codewars problems
 
 ## Template:
 
-[ranking] [question] <br>
-[instructions] <br>
+```
+[ranking] <question> 
+[instructions]
 [solution]
-
+```
 ---
 
 #### [**7kyu**] [Is this a triangle?](https://www.codewars.com/kata/56606694ec01347ce800001b/train/go)
