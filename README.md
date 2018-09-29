@@ -46,4 +46,20 @@ package kata
 func RemoveChar(word string) string {
   return word[1:(len(word)-1)]
 }
-``
+```
+
+[**8kyu**][Even or Odd](https://www.codewars.com/kata/even-or-odd/train/go)
+
+Create a function (or write a script in Shell) that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
+**Solução:**
+```
+package kata
+
+func EvenOrOdd(number int) string {
+  if number % 2 == 0 {
+    return "Even"
+  }else{ return "Odd"}
+}
+```
+
+
