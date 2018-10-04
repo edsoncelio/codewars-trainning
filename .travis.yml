@@ -5,4 +5,4 @@ go:
   - 1.10.x
   
 script:
-  - go test -v ./github.com/edsoncelio/codewars-trainning/tree/master/solutions
+  - go test -v ./...
