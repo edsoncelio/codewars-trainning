@@ -1,6 +1,6 @@
 ## Solutions to [Codewars](https://www.codewars.com/) problems :computer:
 
-![badge](https://www.codewars.com/users/edsoncelio/badges/small)
+![build](https://travis-ci.org/edsoncelio/codewars-trainning.svg?branch=master)
 
 ## Problems
 
