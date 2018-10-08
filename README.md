@@ -87,3 +87,30 @@ The binary number returned should be a string.
 
 - [ ] Golang
 - [x] [Python]()
+
+---
+
+#### [7kyu] [Shortest String](https://www.codewars.com/kata/shortest-word/train/python)
+Simple, given a string of words, return the length of the shortest word(s).
+
+String will never be empty and you do not need to account for different data types.
+
+- [ ] Golang
+- [x] [Python]()
+
+---
+
+#### [6kyu][Find the unique number](https://www.codewars.com/kata/find-the-unique-number-1/train/python)
+There is an array with some numbers. All numbers are equal except for one. Try to find it!
+
+```
+findUniq([ 1, 1, 1, 2, 1, 1 ]) === 2
+findUniq([ 0, 0, 0.55, 0, 0 ]) === 0.55
+```
+
+It’s guaranteed that array contains more than 3 numbers.
+
+The tests contain some very huge arrays, so think about performance.
+
+- [ ]Golang
+- [x]Python
