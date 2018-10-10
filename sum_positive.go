@@ -1,4 +1,4 @@
-package kata
+package main
 
 func PositiveSum(numbers []int) int {
    var sum int = 0
