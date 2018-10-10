@@ -11,14 +11,6 @@ func TestIsTriangle(t *testing.T){
 	} 
 }
 
-func TestRemoveChar(t *testing.T){
-	word string = "testing"
-	result := RemoveChar("testing")
-	if result != word[1:(len(word)-1)] {
-		t.Errorf("Expected: %s, got: %s", word[1:(len(word)-1)], result)
-	}
-}
-
 func TestEvenOrOdd(t *testing.T){
 	result := EvenOrOdd(25)
 	if result != "Odd"{
