@@ -1,5 +1,7 @@
+go_import_path: github.com/edsoncelio/codewars-trainning/tree/master/solutions
 language: go
-
 go:
   - 1.10.x
   
+script:
+  - go test -v ./...
