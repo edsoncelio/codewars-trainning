@@ -1,4 +1,3 @@
-go_import_path: /home/travis/gopath/src/github.com/edsoncelio/codewars-trainning/tree/master/solutions/solutions
 language: go
 go:
   - 1.10.x
