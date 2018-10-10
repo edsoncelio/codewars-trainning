@@ -1,4 +1,4 @@
-package kata
+package main
 
 func IsTriangle(a, b, c int) bool {
   
