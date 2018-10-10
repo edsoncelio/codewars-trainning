@@ -19,8 +19,8 @@ func TestEvenOrOdd(t *testing.T){
 }
 
 func TestPositiveSum(t *testing.T){
-	result := PositiveSum([]int{1, 2, 3, -4})
-	if result != 2{
+	result := PositiveSum([]int{1, 2, 3, 4})
+	if result != 10{
 		t.Errorf("Expected: %d, got: %d", 2, result)
 	}
 }
