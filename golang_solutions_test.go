@@ -25,8 +25,8 @@ func TestPositiveSum(t *testing.T){
 	}
 }
 
-func TestNegative(t *testing.T){
-	result := Negative(-2)
+func TestMakeNegative(t *testing.T){
+	result := MakeNegative(-2)
 	if result != 2 {
 		t.Errorf("Expected: %d, got: %d",2, result)
 	}
