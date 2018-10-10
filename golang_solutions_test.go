@@ -7,7 +7,7 @@ import (
 func TestIsTriangle(t *testing.T){
 	result := IsTriangle(2,3,4)
 	if result != true {
-		t.Errorf("Expected:  %d, got: %d",true, result)
+		t.Errorf("Expected:  true, got: %t", result)
 	} 
 }
 
